@@ -1,1 +1,5 @@
-<h1><?php echo $view_data; ?></h1>
+<body>
+    <p>This is test Page.</p>
+    <p>これはctpページです</p>
+</body>
+<?=date('Y/m/d',time()) ?>
