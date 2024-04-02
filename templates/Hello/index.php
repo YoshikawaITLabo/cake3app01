@@ -1,0 +1,1 @@
+<h1><?php echo $view_data; ?></h1>

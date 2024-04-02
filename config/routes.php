@@ -94,4 +94,8 @@ return function (RouteBuilder $routes): void {
      * });
      * ```
      */
+
+    $routes->connect('/hello', ['controller' => 'Hello', 'action' => 'index'], ['_name' => 'hello']);
+    
+     
 };
